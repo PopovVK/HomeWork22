@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#questions {
+    margin-bottom: 20px;
+}
+
+#checkButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#checkButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
